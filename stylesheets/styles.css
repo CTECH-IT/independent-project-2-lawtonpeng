@@ -1,1 +1,7 @@
-/* Put your CSS here */
+.thumbnail-title {
+    background: rgb(255,0,0);
+    color: rgb(255,204,203);
+    display: block;
+    margin: 0;
+    padding: 0.4em lem;
+}
