@@ -1,5 +1,11 @@
+html, body {
+    height: 100%;
+}
+
 body {
     background: #ed1c2b;
+    display: flex;
+    flex-direction: column;
     font-size: 10px;
 }
 
@@ -29,9 +35,10 @@ a[href="#"] {
 }
 
 .thumbnail-item {
-    display: block;
     border: 1px solid rgb(100%, 100%, 100%);
     border: 1px solid rgb(100%, 100%, 100%, 0.8);
+    display: inline-block;
+    width: 120px;
 }
 
 .thumbnail-item + .thumbnail-item {
@@ -40,5 +47,12 @@ a[href="#"] {
 
 .thumbnail-list {
     list-style: none;
+
+    overflow-x: auto;
     padding: 0;
+    white-space: nowrap;
+}
+
+.detail-image {
+    width: 90%;
 }
