@@ -1,5 +1,5 @@
 body {
-    background: rgb(255,0,0);
+    background: #ed1c2b;
     font-size: 10px;
 }
 
@@ -16,13 +16,29 @@ a[href="#"] {
     text-decoration: none;
 }
 
+.logo-text {
+    background: white;
+    font-size: 37px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .thumbnail-image {
     display: block;
     width: 100%;
 }
 
 .thumbnail-item {
+    display: block;
     border: 1px solid rgb(100%, 100%, 100%);
     border: 1px solid rgb(100%, 100%, 100%, 0.8);
 }
 
+.thumbnail-item + .thumbnail-item {
+    margin-top: 10px;
+}
+
+.thumbnail-list {
+    list-style: none;
+    padding: 0;
+}
