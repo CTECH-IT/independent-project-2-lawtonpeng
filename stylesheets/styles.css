@@ -29,6 +29,16 @@ a[href="#"] {
     text-transform: uppercase;
 }
 
+.main-header {
+    flex: 0 1 auto;
+}
+
+.main-content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
 .thumbnail-image {
     display: block;
     width: 100%;
@@ -46,7 +56,9 @@ a[href="#"] {
 }
 
 .thumbnail-list {
+    flex: 0 1 auto;
     list-style: none;
+    order: 2;
 
     overflow-x: auto;
     padding: 0;
@@ -55,4 +67,8 @@ a[href="#"] {
 
 .detail-image {
     width: 90%;
+}
+
+.detail-image-container {
+    flex: 1 1 auto;
 }
