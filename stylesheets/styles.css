@@ -1,12 +1,12 @@
-html, body {
-    height: 100%;
-}
-
 body {
     background: #ed1c2b;
     display: flex;
     flex-direction: column;
     font-size: 10px;
+}
+
+html, body {
+    height: 100%;
 }
 
 .thumbnail-title {
@@ -71,4 +71,18 @@ a[href="#"] {
 
 .detail-image-container {
     flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-image-frame {
+    position: relative;
+    text-align: center;
+}
+
+.detail-image-title {
+    color: white;
+    font-size: 40px;
+    text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
 }
