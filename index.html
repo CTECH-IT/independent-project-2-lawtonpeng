@@ -3,68 +3,70 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Salvation Army</title>
-  <meta name="Lawton" content="Lawton">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1">
+  <title> The Salvation Army</title>
+  <meta name="author" content="Lawton Peng">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
 
 <body>
-  <header class="main-header">
-    <h1 class="logo-text">The Salvation Army</h1>
-    <p>Doing the Most Good.</p>
+  <header>
+    <h1 class="page-title">The Salvation Army</h1>
+    <p class="body-text">What is the Salvation Army? The Salvation Army is a Christian international charitable organisation headquartered in London, England. We have a worldwide membership of over 1.7 million, comprising soldiers, officers and adherents collectively known as Salvationists. We want to bring salvation to the poor, destitute, and hungry by meeting both their physical and spiritual needs.</p>
+
   </header>
-  <main class="main-content">
-    <ul class="thumbnail-list">
+  <main class="main">
+
+    <p class="body-text">Learn about us by clicking the images!</p>
+    <ul class="thumbnail-array">
       <li class="thumbnail-item">
-        <a href="#">
+        <a href="#" data-image-role="select"
+          change-text="The Salvation Army, an international movement, is an evangelical part of the universal Christian Church. Its message is based on the Bible. Its ministry is motivated by the love of God. Its mission is to preach the gospel of Jesus Christ and to meet human needs in His name without discrimination."
+          data-image-url="img/thumbnail.jpg"><img class="thumbnail-image" src="img/thumbnail.jpg" alt="logo">
+          <span class="thumbnail-title">Mission Statement</span>
+        </a>
+      </li>
+    </ul>
+    <ul class="thumbnail-array">
+      <li class="thumbnail-item">
+        <a href="#" data-image-role="select" 
+        change-text="The Salvation Army supports vulnerable people in more than 120 countries around the world. On average, 86 cents of every dollar goes directly to programs and services provided. The Salvation Army reaches out to those most in need, and without discrimination. The Salvation Army highly values our relationship with donors and recognizes that without their support, we would not be able to continue to serve more than 1.6 million people every year." 
+        data-image-url="img/sample1.jpg"><img class="thumbnail-image" src="img/sample1.jpg" alt="sample1">
+        <span class="thumbnail-title">Why choose us?</span>
+        </a>
+      </li>
+    </ul>
+    <ul class="thumbnail-array">
+      <li class="thumbnail-item">
+        <a href="#" data-image-role="select" 
+        change-text="Consider donating money, goods, or your time by volunteering!" 
+        data-image-url="img/sample2.jpeg"><img class="thumbnail-image" src="img/sample2.jpeg" alt="sample2">
+        <span class="thumbnail-title">Way's to give</span>
+        </a>
+        
+      </li>
+    </ul>
+    <ul class="thumbnail-array">
+      <li class="thumbnail-item">
+        <a href="#" data-image-role="select" change-text="Almost 3.3 million people of all ages volunteered their time, talents, and resources to assist The Salvation Army's work. Our volunteers are critical partners in helping us fulfill our promise to America of doing the most good. To get involved, please contact your local Salvation Army to see what opportunities are available.">
+          <img class="thumbnail-image" src="img/sample3.jpg" alt="sample3">
+        <span class="thumbnail-title">How to volunteer?</span>
+        </a>
+        
+      </li>
+    </ul>
 
-  </main>
-  </a>
-  </li>
-  <li class="thumbnail-item">
-    <a href="#">
-      <img class="thumbnail-image" src="img/thumbnail.jpg">
-      <span class="thumbnail-title">Help Today!</span>
-    </a>
-  </li>
-  <div class="detail-image-container">
-    <div class="detail-image-frame">
-      <img class="detail-image" src="img/sample1.jpg">
-      <span class="detail-image-title">Help Today!</span>
+    <div class="detail-container">
+      <div class="detail-frame" data-image-role="frame">
+        <span class="text" data-image-role="target">DOING THE MOST GOOD</span>
+        </div>
     </div>
-  </div>
+
   </main>
-  <li class="thumnbnail-item">
-    <a href="#">
-      <img class="thumbnail-image" src="img/sample2.jpeg">
-      <span class="thumbnail-title">sample2</span>
-  </li>
-  <li class="thumnbnail-item">
-    <a href="#">
-      <img class="thumbnail-image" src="img/sample3.jpg">
-      <span class="thumbnail-title">sample3</span>
-  </li>
-  <li class="thumnbnail-item">
-    <a href="#">
-      <img class="thumbnail-image" src="img/donate.jpg">
-      <span class="thumbnail-title">Donate</span>
-  </li>
-  <li class="thumnbnail-item">
-    <a href="#">
-      <img class="thumbnail-image" src="img/volunteer.png">
-      <span class="thumbnail-title">Volunteer Today!</span>
-    </a>
-  </li>
-  </ul>
 
-
-
-  <script src="scripts/main.js"></script>
-
-
+  <script src="scripts/main.js" charset="utf-8"></script>
 </body>
 
 </html>

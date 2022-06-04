@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Airstream';
+    src: url('fonts/Airstream-webfont.ttf');
+}
+
 
 body {
     background-color: #FF3632;
@@ -13,7 +18,7 @@ body {
     padding-left: .4cm;
     margin-left: 2cm;
     margin-right: 2cm;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .text {
     color: black;
@@ -21,7 +26,7 @@ body {
     margin-left: 2cm;
     margin-right: 2cm;
     display: block;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     
 }
@@ -102,8 +107,6 @@ body {
 .thumbnail-title {
     background-color: #FF3632;
     list-style: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
 
